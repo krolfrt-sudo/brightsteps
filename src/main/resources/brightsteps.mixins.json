@@ -1,0 +1,8 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.example.brightsteps.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["BlockDustParticleMixin", "EntityMixin"],
+  "injectors": { "defaultRequire": 1 }
+}

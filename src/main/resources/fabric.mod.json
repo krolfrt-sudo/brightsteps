@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "brightsteps",
+  "version": "${version}",
+  "name": "Bright Steps",
+  "description": "Делает частицы бега по блокам крупнее и ярче. Настраивается через Mod Menu или config/brightsteps.json.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.brightsteps.BrightStepsClient"],
+    "modmenu": ["com.example.brightsteps.config.ModMenuIntegration"]
+  },
+  "mixins": ["brightsteps.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "modmenu": "*",
+    "cloth-config": "*"
+  }
+}
