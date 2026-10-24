@@ -1,6 +1,7 @@
 package com.example.brightsteps.mixin;
 
 import com.example.brightsteps.config.BrightStepsConfig;
+import com.example.brightsteps.RunningContext;
 import net.minecraft.client.particle.BillboardParticle;
 import net.minecraft.client.particle.BlockDustParticle;
 import net.minecraft.client.texture.Sprite;
